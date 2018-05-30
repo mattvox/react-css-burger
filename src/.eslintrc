@@ -1,8 +1,6 @@
 {
+  "plugins": ["jest"],
   "env": {
-    "mocha": true
-  },
-  "globals": {
-    "expect": true
+    "jest/globals": true
   }
 }

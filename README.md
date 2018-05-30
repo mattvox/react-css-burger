@@ -13,15 +13,13 @@ npm install --save react-css-burger
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'react-css-burger'
+import Burger from 'react-css-burger';
 
 class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <Burger />;
   }
 }
 ```

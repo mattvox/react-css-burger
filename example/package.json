@@ -1,7 +1,7 @@
 {
   "name": "react-css-burger-example",
   "homepage": "https://mattvox.github.io/react-css-burger",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
