@@ -1,3 +1,37 @@
 {
-  "cSpell.words": ["arrowalt", "arrowturn", "jsnext", "paren", "predeploy"]
+  "cSpell.words": [
+    "arrowalt",
+    "arrowturn",
+    "jsnext",
+    "paren",
+    "predeploy"
+  ],
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yml"
+  ]
 }
