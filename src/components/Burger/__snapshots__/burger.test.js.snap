@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Burger /> should render correctly 1`] = `
+<button
+  className="undefined undefined "
+  type="button"
+>
+  <span
+    className="undefined"
+  >
+    <span
+      className="undefined"
+    />
+  </span>
+</button>
+`;

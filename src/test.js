@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import Burger from './';
 
-describe('ExampleComponent', () => {
+describe('Index', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+    expect(Burger).toBeTruthy();
+  });
+});

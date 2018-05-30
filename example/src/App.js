@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Burger from 'test-react-lib';
+import Burger from 'react-css-burger';
 
 export default class App extends Component {
   state = {
