@@ -116,15 +116,15 @@ React CSS Burger utilizes modern CSS3 features, such as CSS variables, and is on
 
 ## Similar Projects
 
-* [https://www.npmjs.com/package/react-burgers](react-burgers)
-* [https://www.npmjs.com/package/react-animated-burgers](react-animated-burgers)
-* [https://www.npmjs.com/package/react-burger-king](react-burger-king)
+* [react-burgers](https://www.npmjs.com/package/react-burgers)
+* [react-animated-burgers](https://www.npmjs.com/package/react-animated-burgers)
+* [react-burger-king](https://www.npmjs.com/package/react-burger-king)
 
 Not using React? Check out the project this one is based on: [https://jonsuh.com/hamburgers/](Jonathan Suh's Hamburgers)
 
 ## Acknowledgements
 
-This component is heavily inspired by [https://jonsuh.com/hamburgers/](Jonathan Suh's Hamburgers) and implements almost all of his original CSS.
+This component is heavily inspired by [Jonathan Suh's Hamburgers](https://jonsuh.com/hamburgers/) and implements almost all of his original CSS.
 
 ## License
 
