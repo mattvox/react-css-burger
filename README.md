@@ -22,7 +22,7 @@ npm install --save react-css-burger
 
 ## Usage
 
-This delicious burger uses sensible defaults, so minimal configuration via props is necessary.
+This delicious burger uses sensible defaults, so only minimal configuration via props is necessary.
 
 ### Basic configuration
 
