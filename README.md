@@ -114,9 +114,17 @@ React CSS Burger uses CSS Variables to provide a dynamic experience, ensuring th
 
 React CSS Burger utilizes modern CSS3 features, such as CSS variables, and is only meant for use with modern browsers, but smart fallbacks are provided to allow for graceful degradation when viewed on an older browser.
 
-## Related
+## Similar Projects
+
+* [https://www.npmjs.com/package/react-burgers](react-burgers)
+* [https://www.npmjs.com/package/react-animated-burgers](react-animated-burgers)
+* [https://www.npmjs.com/package/react-burger-king](react-burger-king)
+
+Not using React? Check out the project this one is based on: [https://jonsuh.com/hamburgers/](Jonathan Suh's Hamburgers)
 
 ## Acknowledgements
+
+This component is heavily inspired by [https://jonsuh.com/hamburgers/](Jonathan Suh's Hamburgers) and implements almost all of his original CSS.
 
 ## License
 
