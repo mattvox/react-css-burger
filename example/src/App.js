@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Burger from 'react-css-burger';
+import Burger from './components/BurgerWrapper';
 
 export default class App extends Component {
   state = {
@@ -29,27 +29,41 @@ export default class App extends Component {
     ];
 
     return burgerList.map(burger => (
-      <div key={burger}>
+      <div
+        key={burger}
+        style={{
+          display: 'flex',
+          flex: '0 0 33%',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
         <Burger
-          onClick={() =>
-            this.setState({
-              active: !this.state.active,
-            })
-          }
-          active={this.state.active}
           burger={burger}
-          color="pink"
-          hoverOpacity={0.6}
-          scale={1.2}
+          color="#0FAFFF"
+          hoverOpacity={0.8}
+          scale={1}
+          marginTop="0"
+          marginLeft="0"
         />
-        {burger}
+        <div style={{ paddingTop: '20px' }}>{burger}</div>
       </div>
     ));
   };
 
   render() {
     return (
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          minHeight: '100vh',
+          height: '100%',
+          maxWidth: '800px',
+          margin: '0 auto',
+        }}
+      >
         {this.renderBurgers()}
       </div>
     );
