@@ -18,6 +18,21 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
+  "homepage": "https://github.com/mattvox/react-css-burger",
+  "bugs": {
+    "url": "https://github.com/mattvox/react-css-burger/issues"
+  },
+  "keywords": [
+    "component",
+    "react-component",
+    "react",
+    "menu",
+    "burger",
+    "hamburger"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "dependencies": {},
   "peerDependencies": {
     "prop-types": "^15.5.4",
