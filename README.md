@@ -120,7 +120,7 @@ React CSS Burger utilizes modern CSS3 features, such as CSS variables, and is on
 * [react-animated-burgers](https://www.npmjs.com/package/react-animated-burgers)
 * [react-burger-king](https://www.npmjs.com/package/react-burger-king)
 
-Not using React? Check out the project this one is based on: [https://jonsuh.com/hamburgers/](Jonathan Suh's Hamburgers)
+Not using React? Check out the project this one is based on: [Jonathan Suh's Hamburgers](https://jonsuh.com/hamburgers/)
 
 ## Acknowledgements
 
