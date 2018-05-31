@@ -6,7 +6,7 @@
 
 ## Examples
 
-Check out the live demo: [https://mattvox.githib.io/react-css-burger]
+Check out the live demo: [https://mattvox.githib.io/react-css-burger](https://mattvox.githib.io/react-css-burger)
 
 ## Install
 
