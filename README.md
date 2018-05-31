@@ -2,7 +2,7 @@
 
 > Lightweight, dynamic, zero-dependency (and very tasty) burger for React.
 
-[![NPM](https://img.shields.io/npm/v/react-css-burger.svg)](https://www.npmjs.com/package/react-css-burger) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-css-burger.svg)](https://www.npmjs.com/package/react-css-burger) [![Build Status](https://travis-ci.org/mattvox/react-css-burger.svg?branch=master)](https://travis-ci.org/mattvox/react-css-burger) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Examples
 
