@@ -11,12 +11,14 @@
   "jsnext:main": "dist/index.es.js",
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:coverage": "cross-env CI=1 react-scripts test --env=jsdom --coverage",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepare": "yarn run build",
     "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "homepage": "https://github.com/mattvox/react-css-burger",
   "bugs": {

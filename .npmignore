@@ -7,6 +7,7 @@
 example
 src
 config
+coverage
 public
 scripts
 stories
