@@ -6,7 +6,7 @@
 
 ## Examples
 
-Check out the live demo: [https://mattvox.githib.io/react-css-burger](https://mattvox.githib.io/react-css-burger)
+Check out the live demo: [https://mattvox.github.io/react-css-burger](https://mattvox.github.io/react-css-burger)
 
 ## Install
 
@@ -76,7 +76,7 @@ class App extends Component {
 
 ### Animations
 
-Burger animations are set with the `burger` prop. To see all the available animations in action, please check out the live demo at [https://mattvox.githib.io/react-css-burger](https://mattvox.githib.io/react-css-burger). The default animation is "boring", although this can be substituted for any one of the following strings values:
+Burger animations are set with the `burger` prop. To see all the available animations in action, please check out the live demo at [https://mattvox.github.io/react-css-burger](https://mattvox.github.io/react-css-burger). The default animation is "boring", although this can be substituted for any one of the following strings values:
 
 * `arrow`
 * `arrowalt`
