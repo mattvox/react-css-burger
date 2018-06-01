@@ -17,11 +17,11 @@ const Burger = props => {
     style,
   } = props;
 
-  root.style.setProperty('--color', color);
-  root.style.setProperty('--opacity-hover', hoverOpacity);
-  root.style.setProperty('--scale', scale);
-  root.style.setProperty('--top-margin', marginTop);
-  root.style.setProperty('--left-margin', marginLeft);
+  root.style.setProperty('--burger-color', color);
+  root.style.setProperty('--burger-opacity-hover', hoverOpacity);
+  root.style.setProperty('--burger-scale', scale);
+  root.style.setProperty('--burger-margin-top', marginTop);
+  root.style.setProperty('--burger-margin-left', marginLeft);
 
   const classes = {
     burger: `${css['hamburger']} ${css[`hamburger--${burger}`]}`,

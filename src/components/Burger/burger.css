@@ -1,13 +1,13 @@
 :root {
-  --color: #000;
-  --scale: 1;
-  --opacity-hover: 1;
-  --top-margin: 25px;
-  --left-margin: 25px;
+  --burger-color: #000;
+  --burger-scale: 1;
+  --burger-opacity-hover: 1;
+  --burger-margin-top: 25px;
+  --burger-margin-left: 25px;
 }
 
 .hamburger {
-  transform: scale(var(--scale));
+  transform: scale(var(--burger-scale, 1));
   padding: 4px;
   display: inline-block;
   cursor: pointer;
@@ -19,14 +19,15 @@
   text-transform: none;
   background-color: transparent;
   border: 0;
-  margin: var(--top-margin) 0 0 var(--left-margin);
+  margin: 25px 0 0 25px;
+  margin: var(--burger-margin-top, 25px) 0 0 var(--burger-margin-left, 25px);
   overflow: visible;
   outline: none;
   box-sizing: border-box;
 }
 
 .hamburger:hover {
-  opacity: var(--opacity-hover);
+  opacity: var(--burger-opacity-hover);
 }
 
 .hamburger-box {
@@ -48,7 +49,7 @@
   width: 40px;
   height: 4px;
   background-color: #000;
-  background-color: var(--color);
+  background-color: var(--burger-color, #000);
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
