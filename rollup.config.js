@@ -23,6 +23,7 @@ export default {
     external(),
     postcss({
       modules: true,
+      minimize: true,
     }),
     url(),
     babel({
