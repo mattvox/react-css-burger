@@ -1,7 +1,8 @@
 {
   "name": "react-css-burger",
-  "version": "0.1.6",
-  "description": "Lightweight, dynamic, zero-dependency (and very tasty) burger for React.",
+  "version": "0.2.0",
+  "description":
+    "Lightweight, dynamic, zero-dependency (and very tasty) burger for React.",
   "author": "Matthew Bliffert",
   "license": "MIT",
   "repository": "mattvox/react-css-burger",
@@ -73,7 +74,5 @@
     "rollup-plugin-postcss": "^1.1.0",
     "rollup-plugin-url": "^1.3.0"
   },
-  "files": [
-    "dist"
-  ]
+  "files": ["dist"]
 }
