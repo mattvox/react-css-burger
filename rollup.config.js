@@ -2,6 +2,7 @@ import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
+import autoprefixer from 'autoprefixer';
 import resolve from 'rollup-plugin-node-resolve';
 import url from 'rollup-plugin-url';
 
@@ -24,6 +25,7 @@ export default {
     postcss({
       modules: true,
       minimize: true,
+      plugins: [autoprefixer()],
     }),
     url(),
     babel({
