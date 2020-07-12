@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import css from './burger.css';
 
 const Burger = props => {
-  const root = document.documentElement;
+  const root = typeof document !== "undefined" ? document.documentElement : '';
   const {
     active,
     onClick,
@@ -17,12 +17,15 @@ const Burger = props => {
     style,
   } = props;
 
-  root.style.setProperty('--burger-color', color);
-  root.style.setProperty('--burger-opacity-hover', hoverOpacity);
-  root.style.setProperty('--burger-scale', scale);
-  root.style.setProperty('--burger-margin-top', marginTop);
-  root.style.setProperty('--burger-margin-left', marginLeft);
-
+  if(root)
+  {
+    root.style.setProperty('--burger-color', color);
+    root.style.setProperty('--burger-opacity-hover', hoverOpacity);
+    root.style.setProperty('--burger-scale', scale);
+    root.style.setProperty('--burger-margin-top', marginTop);
+    root.style.setProperty('--burger-margin-left', marginLeft);
+  }
+  
   const classes = {
     burger: `${css['hamburger']} ${css[`hamburger--${burger}`]}`,
     box: `${css['hamburger-box']}`,
