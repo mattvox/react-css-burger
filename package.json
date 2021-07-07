@@ -20,9 +20,9 @@
     "deploy": "gh-pages -d example/build",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
-  "homepage": "https://github.com/mattvox/react-css-burger",
+  "homepage": "https://github.com/lifeeric/react-css-burger",
   "bugs": {
-    "url": "https://github.com/mattvox/react-css-burger/issues"
+    "url": "https://github.com/lifeeric/react-css-burger/issues"
   },
   "keywords": [
     "component",
