@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import css from "./burger.css";
 
-const Burger = (props) => {
+const Burger = props => {
   const root = typeof document !== "undefined" ? document.documentElement : "";
   const {
     active,
@@ -14,7 +14,7 @@ const Burger = (props) => {
     scale,
     marginTop,
     marginLeft,
-    style,
+    style
   } = props;
 
   if (root) {
@@ -29,7 +29,7 @@ const Burger = (props) => {
     burger: `${css["hamburger"]} ${css[`hamburger--${burger}`]}`,
     box: `${css["hamburger-box"]}`,
     inner: `${css["hamburger-inner"]}`,
-    active: active ? `${css["is-active"]}` : "",
+    active: active ? `${css["is-active"]}` : ""
   };
 
   return (
@@ -66,14 +66,14 @@ Burger.propTypes = {
     "vortex",
     "3dx",
     "3dy",
-    "3dxy",
+    "3dxy"
   ]),
   color: PropTypes.string,
   hoverOpacity: PropTypes.number,
   scale: PropTypes.number,
   marginTop: PropTypes.string,
   marginLeft: PropTypes.string,
-  style: PropTypes.object,
+  style: PropTypes.object
 };
 
 Burger.defaultProps = {
@@ -82,7 +82,7 @@ Burger.defaultProps = {
   hoverOpacity: 1,
   scale: 1,
   marginTop: "25px",
-  marginLeft: "25px",
+  marginLeft: "25px"
 };
 
 export default Burger;
