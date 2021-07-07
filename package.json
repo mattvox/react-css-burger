@@ -1,11 +1,11 @@
 {
-  "name": "react-css-burger",
-  "version": "0.2.0",
+  "name": "@lifeeric/react-css-burger",
+  "version": "0.2.1",
   "description":
     "Lightweight, dynamic, zero-dependency (and very tasty) burger for React.",
   "author": "Matthew Bliffert",
   "license": "MIT",
-  "repository": "mattvox/react-css-burger",
+  "repository": "@lifeeric/react-css-burger",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -20,9 +20,9 @@
     "deploy": "gh-pages -d example/build",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
-  "homepage": "https://github.com/mattvox/react-css-burger",
+  "homepage": "https://github.com/lifeeric/react-css-burger",
   "bugs": {
-    "url": "https://github.com/mattvox/react-css-burger/issues"
+    "url": "https://github.com/lifeeric/react-css-burger/issues"
   },
   "keywords": [
     "component",
