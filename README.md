@@ -9,13 +9,13 @@ Check out the live demo: [https://mattvox.github.io/react-css-burger](https://ma
 ## Install
 
 ```bash
-yarn add react-css-burger
+yarn add @lifeeric/react-css-burger
 ```
 
 Or with npm
 
 ```bash
-npm install --save react-css-burger
+npm install --save @lifeeric/react-css-burger
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ This delicious burger uses sensible defaults, so only minimal configuration via 
 Renders a basic, "boring" burger
 
 ```jsx
-import Burger from "react-css-burger";
+import Burger from "@lifeeric/react-css-burger";
 
 class App extends Component {
   state = {
@@ -50,7 +50,7 @@ class App extends Component {
 Renders a burger with the "arrow" animation, in pink, with a hover opacity of 80%, at 120% scale.
 
 ```jsx
-import Burger from "react-css-burger";
+import Burger from "@lifeeric/react-css-burger";
 
 class App extends Component {
   state = {
@@ -126,4 +126,4 @@ This component is heavily inspired by [Jonathan Suh's Hamburgers](https://jonsuh
 
 ## License
 
-MIT © [mattvox](https://github.com/mattvox)
+MIT © [mattvox](https://ericgit.me)
